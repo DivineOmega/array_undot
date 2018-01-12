@@ -22,7 +22,7 @@ $dotNotationArray = ['products.desk.price' => 100,
 $expanded = array_undot($dotNotationArray)
 
 /*
-$expected = [
+[
     'products' => [
         'desk' => [
             'price' => 100,
@@ -33,7 +33,7 @@ $expected = [
             'name' => 'Red Lamp'
         ]
     ]
-];
+]
 */
 
 ```
