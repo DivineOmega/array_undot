@@ -5,7 +5,19 @@
 This package provides a helper function called `array_undot`, which expands a dot notation array into a full multi-dimensional array. 
 It is, therefore, the opposite of the `array_dot` helper function provided by Laravel.
 
-Usage example:
+# Installation
+
+To install, just run the following composer command.
+
+```
+composer require rapidwebltd/array_undot
+```
+
+The `array_undot` helper function will then be avaiable globally in your project.
+
+# Usage
+
+The following basic examples show how to use the `array_undot` helper function.
 
 ```php
 $dotNotationArray = ['products.desk.price' => 100];
