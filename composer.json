@@ -1,6 +1,6 @@
 {
     "name": "rapidwebltd/array_undot",
-    "description": "array_undot (the opposite of the array_dot helper function) expands a dot notation array into a full multi-dimensional a",
+    "description": "array_undot (the opposite of the array_dot helper function) expands a dot notation array into a full multi-dimensional array.",
     "type": "library",
     "require": {
         "illuminate/support": "^5.1"
