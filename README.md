@@ -13,7 +13,7 @@ To install, just run the following composer command.
 composer require rapidwebltd/array_undot
 ```
 
-The `array_undot` helper function will then be avaiable globally in your project.
+The `array_undot` helper function will then be available globally in your project.
 
 # Usage
 
