@@ -20,25 +20,24 @@ final class BasicUsageTest extends TestCase
 
     public function testMultiItemArray()
     {
-        $dotNotationArray = ['products.desk.price' => 100, 
-                             'products.desk.name' => 'Oak Desk',
+        $dotNotationArray = ['products.desk.price' => 100,
+                             'products.desk.name'  => 'Oak Desk',
                              'products.lamp.price' => 15,
-                             'products.lamp.name' => 'Red Lamp'];
+                             'products.lamp.name'  => 'Red Lamp', ];
 
         $expected = [
             'products' => [
                 'desk' => [
                     'price' => 100,
-                    'name' => 'Oak Desk'
+                    'name'  => 'Oak Desk',
                 ],
                 'lamp' => [
                     'price' => 15,
-                    'name' => 'Red Lamp'
-                ]
-            ]
+                    'name'  => 'Red Lamp',
+                ],
+            ],
         ];
 
         $this->assertEquals($expected, array_undot($dotNotationArray));
     }
-
 }
