@@ -1,9 +1,9 @@
 # array_undot
 
-[![Build Status](https://travis-ci.org/rapidwebltd/array_undot.svg?branch=master)](https://travis-ci.org/rapidwebltd/array_undot)
-[![Coverage Status](https://coveralls.io/repos/github/rapidwebltd/array_undot/badge.svg?branch=master)](https://coveralls.io/github/rapidwebltd/array_undot?branch=master)
+[![Build Status](https://travis-ci.org/divineomega/array_undot.svg?branch=master)](https://travis-ci.org/divineomega/array_undot)
+[![Coverage Status](https://coveralls.io/repos/github/divineomega/array_undot/badge.svg?branch=master)](https://coveralls.io/github/divineomega/array_undot?branch=master)
 [![StyleCI](https://styleci.io/repos/117241773/shield?branch=master)](https://styleci.io/repos/117241773)
-![Packagist](https://img.shields.io/packagist/dt/rapidwebltd/array_undot.svg)
+![Packagist](https://img.shields.io/packagist/dt/divineomega/array_undot.svg)
 
 This package provides a helper function called `array_undot`, which expands a dot notation array into a full multi-dimensional array. 
 It is, therefore, the opposite of the `array_dot` helper function provided by Laravel.
@@ -13,7 +13,7 @@ It is, therefore, the opposite of the `array_dot` helper function provided by La
 To install, just run the following composer command.
 
 ```
-composer require rapidwebltd/array_undot
+composer require divineomega/array_undot
 ```
 
 The `array_undot` helper function will then be available globally in your project.
