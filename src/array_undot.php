@@ -1,5 +1,7 @@
 <?php
 
+use DivineOmega\ArrayUndot\ArrayHelpers;
+
 if (!function_exists('array_undot')) {
     /**
      * Process dot array will return undot array.
@@ -10,11 +12,6 @@ if (!function_exists('array_undot')) {
      */
     function array_undot(array $dotNotationArray)
     {
-        $array = [];
-        foreach ($dotNotationArray as $key => $value) {
-            array_set($array, $key, $value);
-        }
-
-        return $array;
+        return (new ArrayHelpers())->undot($dotNotationArray);
     }
 }
