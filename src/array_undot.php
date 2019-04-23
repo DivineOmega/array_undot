@@ -15,3 +15,17 @@ if (!function_exists('array_undot')) {
         return (new ArrayHelpers())->undot($dotNotationArray);
     }
 }
+
+if (!function_exists('array_dot')) {
+    /**
+     * Flatten a multi-dimensional associative array with dots.
+     *
+     * @param array $dotNotationArray
+     *
+     * @return array
+     */
+    function array_dot(array $dotNotationArray)
+    {
+        return (new ArrayHelpers())->dot($dotNotationArray);
+    }
+}
