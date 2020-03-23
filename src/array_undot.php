@@ -4,7 +4,7 @@ use DivineOmega\ArrayUndot\ArrayHelpers;
 
 if (!function_exists('array_undot')) {
     /**
-     * Expands a dot notation array into a full multi-dimensional array
+     * Expands a dot notation array into a full multi-dimensional array.
      *
      * @param array $dotNotationArray
      *
