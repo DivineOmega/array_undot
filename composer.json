@@ -20,5 +20,10 @@
         "psr-4": {
             "DivineOmega\\ArrayUndot\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DivineOmega\\ArrayUndot\\Tests\\": "tests/Unit/"
+        }
     }
 }

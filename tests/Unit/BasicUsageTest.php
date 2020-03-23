@@ -1,5 +1,7 @@
 <?php
 
+namespace DivineOmega\ArrayUndot\Tests;
+
 use PHPUnit\Framework\TestCase;
 
 final class BasicUsageTest extends TestCase
@@ -21,9 +23,9 @@ final class BasicUsageTest extends TestCase
     public function testMultiItemArray()
     {
         $dotNotationArray = ['products.desk.price' => 100,
-                             'products.desk.name'  => 'Oak Desk',
-                             'products.lamp.price' => 15,
-                             'products.lamp.name'  => 'Red Lamp', ];
+            'products.desk.name'                   => 'Oak Desk',
+            'products.lamp.price'                  => 15,
+            'products.lamp.name'                   => 'Red Lamp', ];
 
         $expected = [
             'products' => [
