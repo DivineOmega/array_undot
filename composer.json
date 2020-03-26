@@ -2,6 +2,9 @@
     "name": "divineomega/array_undot",
     "description": "array_undot (the opposite of the array_dot helper function) expands a dot notation array into a full multi-dimensional array.",
     "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
     "require-dev": {
         "phpunit/phpunit": "^7.0 || ^8.0",
         "php-coveralls/php-coveralls": "^2.1"
